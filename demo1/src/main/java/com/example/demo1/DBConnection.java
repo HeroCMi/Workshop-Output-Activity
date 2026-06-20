@@ -11,7 +11,7 @@ public class DBConnection {
             return DriverManager.getConnection(
                     "jdbc:postgresql://localhost:5432/studentdb_new", // ✅ YOUR NEW DB
                     "postgres",
-                    "12345678" // ✅ YOUR PASSWORD
+                    "YOUR_PASSWORD_HERE" // ✅ YOUR PASSWORD
             );
         } catch (Exception e) {
             System.err.println("❌ Connection Failed: " + e.getMessage());
